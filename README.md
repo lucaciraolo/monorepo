@@ -63,11 +63,11 @@ Run `npx nx affected:test` to execute the unit tests affected by a change.
 
 ### Code scaffolding
 
-Run `nx g @nrwl/react:component my-component --project=app` to generate a new component.
+Run `nx g @nx/react:component my-component --project=app` to generate a new component.
 
 ### Generate an application
 
-Run `npx nx g @nrwl/react:app new-app` to generate an application.
+Run `npx nx g @nx/react:app new-app` to generate an application.
 
 > You can use any of the plugins above to generate applications as well.
 
@@ -75,7 +75,7 @@ When using Nx, you can create multiple applications and libraries in the same wo
 
 ### Generate a library
 
-Run `npx nx g @nrwl/react:lib my-lib` to generate a library.
+Run `npx nx g @nx/react:lib my-lib` to generate a library.
 
 > You can also use any of the plugins above to generate libraries as well.
 
