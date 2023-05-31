@@ -11,7 +11,6 @@
       "options": {
         "platform": "node",
         "outputPath": "dist/apps/min-version-finder",
-        "format": ["cjs"],
         "bundle": false,
         "main": "apps/min-version-finder/src/main.ts",
         "tsConfig": "apps/min-version-finder/tsconfig.app.json",
