@@ -1,0 +1,9 @@
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#ff5e5e",
+    "titleBar.inactiveBackground": "#ff5e5e"
+  },
+  "editor.codeActionsOnSave": {
+    // "source.organizeImports": true
+  }
+}
