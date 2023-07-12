@@ -38,7 +38,7 @@ export const getDependencyVersionDiff = async (
       const [first, ...rest] = versions;
       if (rest.some((version) => version !== first)) {
         const sorted = Object.entries(applications).sort(([, a], [, b]) =>
-          a.localeCompare(b)
+          a.localeCompare(b, undefined, { numeric: true })
         );
         dependencyVersionDiff[dependency] = sorted;
       }
@@ -141,8 +141,16 @@ export const upgradeToMinVersion = async (dependencyType: DependencyType) => {
     '@sentry/cli',
     'concurrently',
 
+    '@sentry/react',
+
     'typescript',
     // "@types/react",
+    '@emotion/react',
+    '@emotion/styled',
+    '@mui/icons-material',
+    '@mui/lab',
+    '@mui/material',
+    '@mui/styles',
   ];
 
   const needsYarnInstall = new Set<string>();
